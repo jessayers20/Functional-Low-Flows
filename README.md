@@ -14,7 +14,7 @@ These metrics are calculated for all reference CA stream gages included in the C
 
 2_Create_new_variable_file_dry_season_models_all_COMIDS
 
-This script updates the metric file that is used as input to model CEFF metrics. The updated file includes key variables for the dry season metrics (climate variables for the overlapping dry season) and variables from 2015 to 2021. The file binds together each flow metric (including new low flow metrics) and the variables that are input into the model. Output is one csv file. 
+This script updates the metric file used as input to model CEFF metrics. The updated file includes key variables to increase performance of the dry season metrics (climate variables for the overlapping dry season) and variables from 2015 to 2021. The file binds together each flow metric (including new low flow metrics) and the variables that are input into the model. Output is one csv file. 
 
 3_Model_low_flow_metrics
 
