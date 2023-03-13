@@ -18,3 +18,4 @@ This script updates the metric file that is used as input to model CEFF metrics.
 
 3_Model_low_flow_metrics
 
+Script that models all dry season metrics for CEFF (baseflow magnitude 50 and 90, dry season start date, dry season duration, minimum 7-day moving average magnitude, and minimum 7-day occurence date). We train models with leave one out cross validation to get model performance. This script runs through a loop of each dry season metric and site to get an output of predictions.
